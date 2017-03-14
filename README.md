@@ -8,7 +8,9 @@ NAME
 align
 
 BUILD
-Ubuntu v14.04 (Intel(R) Xeon(R) CPU)
+Within build directory:
+align #Ubuntu v14.04 (Intel(R) Xeon(R) CPU)
+align_mac #mac OS v10.12 (Intel(R) i5-5250U CPU)
 
 SYNOPSIS
 align [baseFile] [searchFile] minHitSz minHitMerge minFinalHitSz maxWt cacheLen maxWtMerge startCarry [maxFinalHitWt]

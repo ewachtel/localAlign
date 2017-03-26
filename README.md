@@ -1,4 +1,6 @@
-The align executable described below is available in the build directory.  The code will be made available.  I am modifying some structures for speed and simplicity and cleaning up a bit.  The algorithm will remain the same as described below.  
+The align executable described below is available in the build directory.  align executable is a general Linux execution build.  align_mac is a mac Linux build.
+
+The code will be made available.  I am modifying some structures for speed and simplicity and cleaning up a bit.  The algorithm will remain the same as described below.  
 
 Regards,
 
@@ -9,8 +11,8 @@ align
 
 BUILD
 Within build directory:
-align #Ubuntu v14.04 (Intel(R) Xeon(R) CPU)
-align_mac #mac OS v10.12 (Intel(R) i5-5250U CPU)
+align #built on Ubuntu v14.04 (Intel(R) Xeon(R) CPU)
+align_mac #built on mac OS v10.12 (Intel(R) i5-5250U CPU)
 
 SYNOPSIS
 align [baseFile] [searchFile] minHitSz minHitMerge minFinalHitSz maxWt cacheLen maxWtMerge startCarry [maxFinalHitWt]

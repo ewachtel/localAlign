@@ -1,0 +1,20 @@
+#test: protein sequence
+#align 3 3 10 1 6 1 0
+#PSHLQYHERTHTGEKPYECHQCGQAFKKCSLLQRHKRTHTGEKPYE-CNQCGKAFAQ
+
+#test multiple sequence align
+#align 3 3 10 1 3 1 0  
+PSHLQCHRRTHTxxxxxxxxKPYECHQCGQAFyyyyyyyySHLCQCKRRHTHTwzwzwzwzSHLQCQKRRHTuuuuuuuuEKPYECNQCGKF
+
+#test: fwdrev align 4 3 10 0 4 1 1  #test forward and reverse merge
+#PSHLQYHERTHTGEKPYECHQCGQAFKKCSLLQRHKRTHTGEKPYE-CNQCGKAFAQPTTLLYHERTJTGEK
+
+#test: fwdrevprev align 4 3 10 0 4 1 1  #test reverse merge, merge to previous and fwd/reverse merge merge to previous
+#abcdayydyfyyyighikmmmmmmymmmymmmyghhhyyyy123y567y123y123yabcey123y123
+
+#test: carrymaxfinal align 4 4 12 0 4 1 1 4   #test startCarry and maxFinalHitWt
+#                    align 4 4 12 0 4 1 0      
+#76XX3X1HSHLQ123X56XX01XXZZZABCXEFXXIJXLZZZMNOPQRSTUVWXXXBBXXDDXXFFAAAABBBBCCCCXXBBXXDDXEFF
+
+#test: updateiter align 3 3 9 0 3 1 0      
+#AAA12xx56x89AAA2x4YYYYAAAx23x56x89AA12xx56x89ABBBAAx87x6x54x3x1

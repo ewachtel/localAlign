@@ -2,10 +2,6 @@ The align executable described below is available in the build directory.  align
   
 The code will be made available.  I am modifying some structures for speed and simplicity and cleaning up a bit.  The algorithm will remain the same as described below.    
   
-Regards,  
-  
-Ed  
-  
 NAME  
 align  
   
